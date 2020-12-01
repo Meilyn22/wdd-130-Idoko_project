@@ -62,15 +62,15 @@ header a {
 	opacity: 1;
 }
 
-#banner-wrapper {
+.banner-wrapper {
 	background-color: var(--bg-color);
 }
 
-#banner-wrapper img{
+.banner-wrapper img{
 	opacity:var(--opacity);
  }
 
- #banner-wrapper img:hover {
+ .banner-wrapper img:hover {
 	 opacity: 1;
  }
 
@@ -96,8 +96,10 @@ header a {
  }
 
  #call-to-action {
-	 isolation: isolate;
+    color: white
  }
+
+
 /** slider switch **/
 .theme-switch-wrapper {
     display: flex;
