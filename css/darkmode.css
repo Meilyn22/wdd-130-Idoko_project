@@ -99,6 +99,11 @@ header a {
     color: white
  }
 
+ .review-wrap {
+     background-color: var(--bg-color);
+     color: var(--bg-color);
+ }
+
 
 /** slider switch **/
 .theme-switch-wrapper {
