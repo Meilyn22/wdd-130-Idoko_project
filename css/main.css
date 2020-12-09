@@ -130,8 +130,8 @@ body footer {
   font-size: 1.15rem;
   border-top: 1px solid #000000;
   padding: 30px;
-  background-color: #141d2d;;
-  color: white;
+  background-color: #141d2d;
+  color: #ffffff;
 }
 
 body footer #legal {
@@ -195,7 +195,7 @@ footer p {
   border-radius: 25px;
   margin-left: 550px;
   margin-right: 550px;
-  color: blue;
+  color: #0000ff;
 }
 
 #motto {
@@ -228,7 +228,7 @@ footer p {
 
 #call-to-action {
   padding: 5px;
-  background-color: green;
+  background-color: #008000;
   text-align: center;
   margin: 20px 0px 20px 0px;
 }
@@ -245,7 +245,7 @@ footer p {
 }
 
 #call-to-action-text:hover{
-  color: red;
+  color: #ff0000;
 }
 
   #logo {
@@ -348,4 +348,17 @@ font-family: 'Nerko One', cursive;
 
 .review-text{
   text-align: center;
+}
+
+.wireframe {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+  gap:20px;
+  
+}
+
+.wireframe1 {
+  border: 4px solid blue;
 }
